@@ -1,0 +1,143 @@
+@media(max-width: 768px){
+    body{
+        max-width: 768px;
+    }
+
+    .main-header{
+        
+        height: 30px;
+        padding: 0 20px;
+    }
+
+    .main-header img{
+        width: 150px;
+        margin-top: 18px;
+    }
+
+    .nav-bar ul{
+        font-size: 1.2rem;
+    }
+
+    .card-body{
+        width: 1500px;
+    }
+    .card-body .stu{
+        width: 250px;
+        height: 300px;
+        margin-left: 45px;
+    }
+    .card-body .anlyt{
+        height: 400px;
+        width: 600px;
+        margin: 0;
+    }
+    
+}
+
+@media(max-width: 425px){
+     
+    .nav-bar ul{
+        font-size: 8px;
+        gap: 8px;
+    }
+    .main-header img{
+        height: 30px;
+        width: 80px;
+        margin-top: 9px;
+    }
+    .card-body{
+        flex-direction: row;
+        width: 100%;
+        margin-left: 0;
+    }
+    .card-body .text h2 {
+        margin-top: -20px;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: flex-start;
+       }
+    
+    .card-body .text p{
+        justify-content: center;
+        align-items: center;
+    }
+    .card-body .stu{
+        width: 350px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 0;
+        align-self: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .card-body .joel{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 0;
+        align-self: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+
+    .card-body .yonas{
+        width: 350px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 0;
+        align-self: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .card-body .anlyt{
+        height: 400px;
+        width: 800px;
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 375px){
+    .scroll-arrow-1, .scroll-arrow-2,
+    .scroll-arrow-3{
+        position: relative;
+        top: 0;
+        left:50%; 
+        }
+
+        .results{
+            bottom: 0;
+        }
+        .card-body .text h2{
+            font-size: 20px;
+        } 
+        .card-body .text p{
+            font-size: 16px;
+        }
+       .text .results{
+            height: 150px;
+            width: 270px;
+            margin-left: -8px;
+        }
+
+        .text h3{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .text .results p{
+            font-size: 16px;
+        }
+        .card-body .stu{
+            margin-left: 50px;
+        }
+        .task li{
+            margin-left: -15px;
+        }
+}
